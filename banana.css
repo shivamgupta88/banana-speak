@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+:root{
+    --primary-color:#1F2937 ;
+
+}
+
+
+.heading{
+    font-family: 'Langar', cursive;
+}
+
+.body{
+    font-family: 'Pacifico', cursive;
+
+    background-color: #93C5FD;
+}
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 4rem ;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    margin-top: 5rem;
+}
+    .footer-header{
+              font-size: large;
+              font-weight: bold;
+              /* font-size-adjust: 1; */
+          }
+
+          a {
+            position: relative;
+            display: inline-block;
+            font-size: 1em;
+            font-weight: 100;
+            color: royalblue;
+            overflow: hidden;
+          }
