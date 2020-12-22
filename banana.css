@@ -21,8 +21,8 @@
     color: white;
     padding: 4rem ;
     text-align: center;
-    border-top-right-radius: 1rem;
-    margin-top: 5rem;
+    /* border-top-right-radius: 1rem; */
+    margin-top: 8rem;
 }
     .footer-header{
               font-size: large;
@@ -35,6 +35,10 @@
             display: inline-block;
             font-size: 1em;
             font-weight: 100;
-            color: royalblue;
+            color: var(--primary-color);
             overflow: hidden;
+            text-decoration: none;
+            background-color: white;
+             border-radius: 0.2rem;
+
           }
